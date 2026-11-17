@@ -1,0 +1,30 @@
+{
+  "version": "0.7.0",
+  "description": "Desktop app for Docker containers, images, volumes and Compose stacks",
+  "homepage": "https://github.com/DockevApp/Dockev",
+  "license": "Proprietary",
+  "notes": "Update with: scoop update dockev",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/DockevApp/Dockev/releases/download/v0.7.0/Dockev_0.7.0_windows_x86_64.msi",
+      "hash": "66aef565c772c45aefc59ae809ac02c303e53790ff6dca58778b10e951c2adce",
+      "extract_dir": "PFiles\\Dockev"
+    }
+  },
+  "shortcuts": [
+    [
+      "dockev.exe",
+      "Dockev"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/DockevApp/Dockev"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/DockevApp/Dockev/releases/download/v$version/Dockev_$version_windows_x86_64.msi"
+      }
+    }
+  }
+}
