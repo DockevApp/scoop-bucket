@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img alt="Latest version" src="https://img.shields.io/badge/version-0.7.0-2563eb">
+  <img alt="Latest version" src="https://img.shields.io/github/v/release/DockevApp/Dockev?label=version&color=2563eb">
   <img alt="Architecture" src="https://img.shields.io/badge/arch-x64-475569">
   <img alt="scoop" src="https://img.shields.io/badge/scoop-bucket-16a34a">
 </p>
@@ -83,6 +83,6 @@ Remove-Item -Recurse -Force "$env:APPDATA\com.nacasha.dockev", "$env:LOCALAPPDAT
 
 | Platform | Install |
 |---|---|
-| **macOS** | `brew install --cask dockevapp/dockev/dockev` |
+| **macOS** | [Homebrew tap](https://github.com/DockevApp/homebrew-dockev) |
 | **Linux** (apt, dnf, zypper, pacman) | [dockevapp.github.io/packages](https://dockevapp.github.io/packages) |
-| **Windows installer** (.msi / .exe) | [Download from GitHub Releases](https://github.com/DockevApp/Dockev/releases/latest) |
+| **Direct download** (.msi, .exe) | [GitHub Releases](https://github.com/DockevApp/Dockev/releases/latest) |
